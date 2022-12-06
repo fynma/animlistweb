@@ -1,0 +1,53 @@
+html,body{
+    background-color: #050a10;
+    font-family: "Times New Roman";
+}
+
+.kotak{
+    width: 500px;
+    height: 310px;
+    background-color: #141829;
+    position: absolute;
+    justify-items: center;
+    top: 160px ;
+    left: 425px;
+    border-radius: 2%;
+    color: #f5f5f5;
+}
+
+.kotak nav h2{
+    text-align: center;
+}
+.kotak nav img{
+    margin-left: -5px;
+    width: 150px;
+    height: auto;
+    position: absolute;
+}
+
+.kotak .kotak-2{
+    width: 450px;
+    height: 350px;
+    margin-top: 50px;
+}
+
+.kotak .kotak-2 label{
+    margin-left: 35px;
+}
+
+.kotak .kotak-2 .box-field{
+    width: 400px;
+    height: 20px;
+    margin-left: 35px;
+}
+.kotak .kotak-2 .login{
+    width: 100px ;
+    height: 20px ;
+    margin-top: 15px;
+    margin-left: 190px;
+    align-content: center;
+}
+
+.kotak .kotak-2 h4{
+    margin-left: 35px;
+}

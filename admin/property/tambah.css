@@ -1,0 +1,99 @@
+html,body{
+    font-family: "Times New Roman";
+    background-color: #ffffff;
+}
+
+nav{
+    width: auto;
+    height: 55px;
+    background-color: #ffffff;
+    overflow: hidden;
+    justify-content: space-between;
+    border-style: solid;
+}
+
+img{
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.username .nickname{
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+}
+
+.logout{
+    margin-right: 20px;
+    float: right;
+}
+
+.background{
+    float: right;
+    background-color: #DEE2E6;
+    width: 98%;
+    height: 600px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.background .bar-left{
+    width: 200px;
+    height: 600px;
+    background-color: #2E353C;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 0px;
+}
+
+.background .bar-left ul{
+    position: absolute;
+    margin-top: 100px;
+}
+
+.background .bar-left ul .item li{
+    display: inline-block;
+    line-height: 50px ;
+    margin: 0px;
+
+}
+
+.background .bar-left .item li a{
+    width: 200px;
+    margin-left: -40px;
+    display: block;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: #d9d9d9;
+    text-align: center;
+}
+
+.background .bar-left .item li a:hover{
+    background:#0e141d;
+    text-transform:capitalize;
+}
+
+.kotak{
+    background-color:#2E353C;
+    width: 1120px;
+    height: 600px;
+    float: right;
+    border-radius: 10px;
+ }
+
+ .kotak h1{
+    text-align: center;
+ }
+
+ .kotak td{
+    padding: 5px;
+ }
+
+ .kotak input{
+    width: 400px;
+    height: 25px;
+ }
